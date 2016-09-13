@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dhk-aU-YGI">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Tet Holiday Foods-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TetHoliday" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="jfg-u5-inY">
+                                <rect key="frame" x="0.0" y="64" width="414" height="161"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="161" id="OLV-KX-EwQ"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vAO-5X-Xeb">
+                                <rect key="frame" x="0.0" y="224" width="414" height="512"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="512" id="31C-Ut-bbq"/>
+                                    <constraint firstAttribute="height" constant="512" id="ooC-PY-9zw"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="F3V-OX-TVc" customClass="CustomCell" customModule="TetHoliday" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="F3V-OX-TVc" id="Vpo-um-LNO">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="0.024389955685129805" blue="0.33773917296782052" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="jfg-u5-inY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="8Gn-7z-TwM"/>
+                            <constraint firstItem="jfg-u5-inY" firstAttribute="leading" secondItem="vAO-5X-Xeb" secondAttribute="leading" id="9de-HA-ecu"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vAO-5X-Xeb" secondAttribute="bottom" id="TSr-Nb-1tP"/>
+                            <constraint firstAttribute="trailing" secondItem="vAO-5X-Xeb" secondAttribute="trailing" id="Y9T-9h-h8h"/>
+                            <constraint firstItem="vAO-5X-Xeb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="d4Z-Ou-x6e"/>
+                            <constraint firstItem="jfg-u5-inY" firstAttribute="trailing" secondItem="vAO-5X-Xeb" secondAttribute="trailing" id="iHj-y2-FrB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tet Holiday Foods" id="xgx-Aj-G8L"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="myTableView" destination="vAO-5X-Xeb" id="8IF-Fh-Age"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="273"/>
+        </scene>
+        <!--DetailVC-->
+        <scene sceneID="FyT-Ur-Pre">
+            <objects>
+                <viewController storyboardIdentifier="V3" id="61S-Xq-lUV" customClass="DetailVC" customModule="TetHoliday" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q7g-tM-9bT"/>
+                        <viewControllerLayoutGuide type="bottom" id="ioH-2c-wat"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ikS-2f-9y9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="TiI-Aa-sGu">
+                                <rect key="frame" x="0.0" y="108" width="414" height="600"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WBd-WF-nfb">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="204"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="204" id="8er-sx-AXN"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="H0s-vv-DdN">
+                                        <rect key="frame" x="0.0" y="229" width="414" height="371"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                        <color key="textColor" red="0.96443683930505253" green="0.97621997467570021" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="WBd-WF-nfb" secondAttribute="trailing" id="MRr-r9-4HC"/>
+                                    <constraint firstItem="WBd-WF-nfb" firstAttribute="trailing" secondItem="H0s-vv-DdN" secondAttribute="trailing" id="p4V-un-JZg"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TiI-Aa-sGu" secondAttribute="trailing" id="KaV-KF-52f"/>
+                            <constraint firstItem="TiI-Aa-sGu" firstAttribute="top" secondItem="Q7g-tM-9bT" secondAttribute="bottom" constant="88" id="Tom-eX-cew"/>
+                            <constraint firstItem="TiI-Aa-sGu" firstAttribute="leading" secondItem="ikS-2f-9y9" secondAttribute="leading" id="VUP-nA-NGG"/>
+                            <constraint firstItem="ioH-2c-wat" firstAttribute="top" secondItem="TiI-Aa-sGu" secondAttribute="bottom" constant="28" id="bKo-lD-so7"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="img_view" destination="WBd-WF-nfb" id="hMX-bK-kls"/>
+                        <outlet property="tv_recipe" destination="H0s-vv-DdN" id="mb2-QF-6dL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p4x-Ea-f2o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1605" y="273"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9O7-Sa-jyj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dhk-aU-YGI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="D8v-8K-BdX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ot3-Uz-RHn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S4A-7l-MSm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="273"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="395" height="127"/>
+    </resources>
+</document>

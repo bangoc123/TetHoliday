@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4703B941D88400E00676A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4703B921D88400E00676A6D /* Main.storyboard */; };
+		F4CE0A561D87FF4A001AD1D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE0A551D87FF4A001AD1D5 /* AppDelegate.swift */; };
+		F4CE0A581D87FF4A001AD1D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE0A571D87FF4A001AD1D5 /* ViewController.swift */; };
+		F4CE0A5D1D87FF4A001AD1D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CE0A5C1D87FF4A001AD1D5 /* Assets.xcassets */; };
+		F4CE0A601D87FF4A001AD1D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CE0A5E1D87FF4A001AD1D5 /* LaunchScreen.storyboard */; };
+		F4CE0A6A1D87FFC7001AD1D5 /* Foods.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4CE0A691D87FFC7001AD1D5 /* Foods.plist */; };
+		F4CE0A701D880210001AD1D5 /* banhtrung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CE0A6C1D880210001AD1D5 /* banhtrung.jpg */; };
+		F4CE0A711D880210001AD1D5 /* comlam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CE0A6D1D880210001AD1D5 /* comlam.jpg */; };
+		F4CE0A721D880210001AD1D5 /* galuoc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CE0A6E1D880210001AD1D5 /* galuoc.jpg */; };
+		F4CE0A731D880210001AD1D5 /* mut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4CE0A6F1D880210001AD1D5 /* mut.jpg */; };
+		F4CE0A751D88022E001AD1D5 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE0A741D88022E001AD1D5 /* Food.swift */; };
+		F4CE0A771D8802C3001AD1D5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE0A761D8802C3001AD1D5 /* DataManager.swift */; };
+		F4CE0A791D88092B001AD1D5 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE0A781D88092B001AD1D5 /* CustomCell.swift */; };
+		F4CE0A7B1D882740001AD1D5 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE0A7A1D882740001AD1D5 /* DetailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4703B931D88400E00676A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4CE0A521D87FF4A001AD1D5 /* TetHoliday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetHoliday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CE0A551D87FF4A001AD1D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4CE0A571D87FF4A001AD1D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4CE0A5C1D87FF4A001AD1D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4CE0A5F1D87FF4A001AD1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4CE0A611D87FF4A001AD1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CE0A691D87FFC7001AD1D5 /* Foods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Foods.plist; sourceTree = "<group>"; };
+		F4CE0A6C1D880210001AD1D5 /* banhtrung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banhtrung.jpg; sourceTree = "<group>"; };
+		F4CE0A6D1D880210001AD1D5 /* comlam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comlam.jpg; sourceTree = "<group>"; };
+		F4CE0A6E1D880210001AD1D5 /* galuoc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = galuoc.jpg; sourceTree = "<group>"; };
+		F4CE0A6F1D880210001AD1D5 /* mut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mut.jpg; sourceTree = "<group>"; };
+		F4CE0A741D88022E001AD1D5 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		F4CE0A761D8802C3001AD1D5 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F4CE0A781D88092B001AD1D5 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		F4CE0A7A1D882740001AD1D5 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4CE0A4F1D87FF4A001AD1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4CE0A491D87FF4A001AD1D5 = {
+			isa = PBXGroup;
+			children = (
+				F4CE0A541D87FF4A001AD1D5 /* TetHoliday */,
+				F4CE0A531D87FF4A001AD1D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4CE0A531D87FF4A001AD1D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE0A521D87FF4A001AD1D5 /* TetHoliday.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4CE0A541D87FF4A001AD1D5 /* TetHoliday */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE0A6B1D8801FF001AD1D5 /* Photo */,
+				F4CE0A681D87FF94001AD1D5 /* ViewController */,
+				F4CE0A671D87FF8C001AD1D5 /* Model */,
+				F4CE0A551D87FF4A001AD1D5 /* AppDelegate.swift */,
+				F4CE0A5C1D87FF4A001AD1D5 /* Assets.xcassets */,
+				F4CE0A5E1D87FF4A001AD1D5 /* LaunchScreen.storyboard */,
+				F4CE0A611D87FF4A001AD1D5 /* Info.plist */,
+			);
+			path = TetHoliday;
+			sourceTree = "<group>";
+		};
+		F4CE0A671D87FF8C001AD1D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE0A691D87FFC7001AD1D5 /* Foods.plist */,
+				F4CE0A741D88022E001AD1D5 /* Food.swift */,
+				F4CE0A761D8802C3001AD1D5 /* DataManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F4CE0A681D87FF94001AD1D5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE0A781D88092B001AD1D5 /* CustomCell.swift */,
+				F4CE0A571D87FF4A001AD1D5 /* ViewController.swift */,
+				F4CE0A7A1D882740001AD1D5 /* DetailVC.swift */,
+				F4703B921D88400E00676A6D /* Main.storyboard */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		F4CE0A6B1D8801FF001AD1D5 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE0A6C1D880210001AD1D5 /* banhtrung.jpg */,
+				F4CE0A6D1D880210001AD1D5 /* comlam.jpg */,
+				F4CE0A6E1D880210001AD1D5 /* galuoc.jpg */,
+				F4CE0A6F1D880210001AD1D5 /* mut.jpg */,
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4CE0A511D87FF4A001AD1D5 /* TetHoliday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CE0A641D87FF4A001AD1D5 /* Build configuration list for PBXNativeTarget "TetHoliday" */;
+			buildPhases = (
+				F4CE0A4E1D87FF4A001AD1D5 /* Sources */,
+				F4CE0A4F1D87FF4A001AD1D5 /* Frameworks */,
+				F4CE0A501D87FF4A001AD1D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TetHoliday;
+			productName = TetHoliday;
+			productReference = F4CE0A521D87FF4A001AD1D5 /* TetHoliday.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4CE0A4A1D87FF4A001AD1D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GDG;
+				TargetAttributes = {
+					F4CE0A511D87FF4A001AD1D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F4CE0A4D1D87FF4A001AD1D5 /* Build configuration list for PBXProject "TetHoliday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4CE0A491D87FF4A001AD1D5;
+			productRefGroup = F4CE0A531D87FF4A001AD1D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4CE0A511D87FF4A001AD1D5 /* TetHoliday */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4CE0A501D87FF4A001AD1D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CE0A721D880210001AD1D5 /* galuoc.jpg in Resources */,
+				F4CE0A6A1D87FFC7001AD1D5 /* Foods.plist in Resources */,
+				F4CE0A601D87FF4A001AD1D5 /* LaunchScreen.storyboard in Resources */,
+				F4703B941D88400E00676A6D /* Main.storyboard in Resources */,
+				F4CE0A711D880210001AD1D5 /* comlam.jpg in Resources */,
+				F4CE0A731D880210001AD1D5 /* mut.jpg in Resources */,
+				F4CE0A701D880210001AD1D5 /* banhtrung.jpg in Resources */,
+				F4CE0A5D1D87FF4A001AD1D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4CE0A4E1D87FF4A001AD1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CE0A581D87FF4A001AD1D5 /* ViewController.swift in Sources */,
+				F4CE0A771D8802C3001AD1D5 /* DataManager.swift in Sources */,
+				F4CE0A791D88092B001AD1D5 /* CustomCell.swift in Sources */,
+				F4CE0A561D87FF4A001AD1D5 /* AppDelegate.swift in Sources */,
+				F4CE0A751D88022E001AD1D5 /* Food.swift in Sources */,
+				F4CE0A7B1D882740001AD1D5 /* DetailVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4703B921D88400E00676A6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4703B931D88400E00676A6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4CE0A5E1D87FF4A001AD1D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CE0A5F1D87FF4A001AD1D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4CE0A621D87FF4A001AD1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4CE0A631D87FF4A001AD1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4CE0A651D87FF4A001AD1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TetHoliday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdg.demo.TetHoliday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4CE0A661D87FF4A001AD1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TetHoliday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gdg.demo.TetHoliday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4CE0A4D1D87FF4A001AD1D5 /* Build configuration list for PBXProject "TetHoliday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CE0A621D87FF4A001AD1D5 /* Debug */,
+				F4CE0A631D87FF4A001AD1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CE0A641D87FF4A001AD1D5 /* Build configuration list for PBXNativeTarget "TetHoliday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CE0A651D87FF4A001AD1D5 /* Debug */,
+				F4CE0A661D87FF4A001AD1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4CE0A4A1D87FF4A001AD1D5 /* Project object */;
+}
